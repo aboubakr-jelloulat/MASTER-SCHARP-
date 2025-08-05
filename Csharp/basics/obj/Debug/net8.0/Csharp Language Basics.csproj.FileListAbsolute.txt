@@ -1,0 +1,15 @@
+C:\Users\HP\Desktop\csharp\Csharp\basics\bin\Debug\net8.0\Csharp Language Basics.exe
+C:\Users\HP\Desktop\csharp\Csharp\basics\bin\Debug\net8.0\Csharp Language Basics.deps.json
+C:\Users\HP\Desktop\csharp\Csharp\basics\bin\Debug\net8.0\Csharp Language Basics.runtimeconfig.json
+C:\Users\HP\Desktop\csharp\Csharp\basics\bin\Debug\net8.0\Csharp Language Basics.dll
+C:\Users\HP\Desktop\csharp\Csharp\basics\bin\Debug\net8.0\Csharp Language Basics.pdb
+C:\Users\HP\Desktop\csharp\Csharp\basics\obj\Debug\net8.0\Csharp Language Basics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\csharp\Csharp\basics\obj\Debug\net8.0\Csharp Language Basics.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\csharp\Csharp\basics\obj\Debug\net8.0\Csharp Language Basics.AssemblyInfo.cs
+C:\Users\HP\Desktop\csharp\Csharp\basics\obj\Debug\net8.0\Csharp Language Basics.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\csharp\Csharp\basics\obj\Debug\net8.0\Csharp Language Basics.sourcelink.json
+C:\Users\HP\Desktop\csharp\Csharp\basics\obj\Debug\net8.0\Csharp Language Basics.dll
+C:\Users\HP\Desktop\csharp\Csharp\basics\obj\Debug\net8.0\refint\Csharp Language Basics.dll
+C:\Users\HP\Desktop\csharp\Csharp\basics\obj\Debug\net8.0\Csharp Language Basics.pdb
+C:\Users\HP\Desktop\csharp\Csharp\basics\obj\Debug\net8.0\Csharp Language Basics.genruntimeconfig.cache
+C:\Users\HP\Desktop\csharp\Csharp\basics\obj\Debug\net8.0\ref\Csharp Language Basics.dll

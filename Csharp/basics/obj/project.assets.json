@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Desktop\\csharp\\Csharp\\basics\\basics.csproj",
-      "projectName": "basics",
-      "projectPath": "C:\\Users\\HP\\Desktop\\csharp\\Csharp\\basics\\basics.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\Desktop\\csharp\\Csharp\\basics\\Csharp Language Basics.csproj",
+      "projectName": "Csharp Language Basics",
+      "projectPath": "C:\\Users\\HP\\Desktop\\csharp\\Csharp\\basics\\Csharp Language Basics.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\HP\\Desktop\\csharp\\Csharp\\basics\\obj\\",
       "projectStyle": "PackageReference",

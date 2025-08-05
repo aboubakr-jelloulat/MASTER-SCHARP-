@@ -52,6 +52,70 @@ namespace Csharp
 
 
 
+            /*  ***********    foreach    **************   */
+
+
+
+
+            /*
+
+            char[] numbers = { '0', '1', '2', '3' };
+
+            foreach (char digit in numbers)
+            {
+                Console.WriteLine(digit);
+            }
+
+
+            */
+
+
+
+
+            /*   *************       switch case    *************  */
+
+
+
+            /*
+      
+            Console.WriteLine("Choose an option:");
+            Console.WriteLine("1 - Say Hello");
+            Console.WriteLine("2 - Show Date");
+            Console.WriteLine("3 - Exit");
+
+            Console.Write("Enter your choice: ");
+            string input = Console.ReadLine();
+
+            int parse = int.Parse(input);
+
+            switch (parse)
+            {
+
+                case 1:
+                    Console.WriteLine("\nHello, Aboubaker! 👋");
+                    break;
+
+                case 2:
+                    Console.WriteLine("\nToday's date is: " + DateTime.Now.ToShortDateString());
+                    break;
+
+                case 3:
+                    Console.WriteLine("\nExiting... Goodbye!");
+                    break;
+
+                default:
+                    Console.WriteLine("Invalid choice. Please select 1, 2, or 3.");
+                    break;
+             
+            }
+
+            */
+
+
+
+
+            Console.ReadKey();
+
         }
     }
 }

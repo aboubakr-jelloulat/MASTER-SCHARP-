@@ -12,3 +12,4 @@ C:\Users\HP\Desktop\csharp\Csharp\basics\obj\Debug\net8.0\refint\basics.dll
 C:\Users\HP\Desktop\csharp\Csharp\basics\obj\Debug\net8.0\basics.pdb
 C:\Users\HP\Desktop\csharp\Csharp\basics\obj\Debug\net8.0\basics.genruntimeconfig.cache
 C:\Users\HP\Desktop\csharp\Csharp\basics\obj\Debug\net8.0\ref\basics.dll
+C:\Users\HP\Desktop\csharp\Csharp\basics\obj\Debug\net8.0\basics.sourcelink.json
