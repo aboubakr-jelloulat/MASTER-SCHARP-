@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\csharp\Csharp\Methods\bin\Debug\Methods.exe.config
+C:\Users\HP\Desktop\csharp\Csharp\Methods\bin\Debug\Methods.exe
+C:\Users\HP\Desktop\csharp\Csharp\Methods\bin\Debug\Methods.pdb
+C:\Users\HP\Desktop\csharp\Csharp\Methods\obj\Debug\Methods.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\csharp\Csharp\Methods\obj\Debug\Methods.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\csharp\Csharp\Methods\obj\Debug\Methods.exe
+C:\Users\HP\Desktop\csharp\Csharp\Methods\obj\Debug\Methods.pdb
+C:\Users\HP\Desktop\csharp\Csharp\Methods\obj\Debug\Methods.exe.config
