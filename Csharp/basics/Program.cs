@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 
 namespace Csharp
@@ -194,6 +195,8 @@ namespace Csharp
             // *****************     string [Split   join]       *********************
 
 
+            /*  
+
             Console.WriteLine("*** 1) - split *** \n\nEnter list of numbers separated by comma : \n");
 
             string input = Console.ReadLine();
@@ -215,7 +218,48 @@ namespace Csharp
 
             string hello = string.Join(" ", words);
 
-            Console.WriteLine(hello);   
+            Console.WriteLine(hello); 
+            
+
+
+            */
+
+
+
+
+            /*  **********  String Builder ********** */
+
+
+            string str = "Hello";
+            str = "Hello world";    //  not modified
+            str += " , Ilove .Net"; // created in new memory
+
+
+            // How to Avoid This?  -> using string builder
+
+
+            StringBuilder sb = new(); // include System.Text;
+
+            Console.WriteLine("Length = " + sb.Length);
+            Console.WriteLine("Capacity = " + sb.Capacity);
+            Console.WriteLine("MaxCapacity = " + sb.MaxCapacity); // around 4 GB 
+
+            sb.Append("Hello, world!");
+            sb.Append("\tI Love .Net ");
+            sb.Append("community ");
+
+            Console.WriteLine(sb.ToString());
+
+
+
+
+
+
+
+
+
+
+
 
             Console.ReadKey();
 
