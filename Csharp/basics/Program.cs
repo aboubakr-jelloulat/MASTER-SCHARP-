@@ -143,6 +143,9 @@ namespace Csharp
 
             /* **************    Value Type  / Refrence Types */
 
+
+            /*
+             
             Console.WriteLine("\n *********  Numbers  *************\n\n");
 
             int num_1 = 42;
@@ -181,6 +184,38 @@ namespace Csharp
             Console.WriteLine($"arr[3] = {arr[3]}");
 
 
+
+
+            */
+
+
+
+
+            // *****************     string [Split   join]       *********************
+
+
+            Console.WriteLine("*** 1) - split *** \n\nEnter list of numbers separated by comma : \n");
+
+            string input = Console.ReadLine();
+
+            string[] numbers = input.Split(",");
+
+            int sum = 0;
+
+            foreach (string nb in numbers)
+                sum += int.Parse(nb);
+
+            Console.WriteLine("\nThe total sum of array is : {0}", sum);
+
+
+
+            Console.WriteLine("\n\n**** 2) - join  string : \n");
+
+            string[] words = { "hello", "Azure", "tech world"};
+
+            string hello = string.Join(" ", words);
+
+            Console.WriteLine(hello);   
 
             Console.ReadKey();
 
