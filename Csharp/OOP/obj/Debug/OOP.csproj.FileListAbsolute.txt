@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\csharp\Csharp\OOP\obj\Debug\OOP.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\csharp\Csharp\OOP\obj\Debug\OOP.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\csharp\Csharp\OOP\bin\Debug\OOP.exe.config
+C:\Users\HP\Desktop\csharp\Csharp\OOP\bin\Debug\OOP.exe
+C:\Users\HP\Desktop\csharp\Csharp\OOP\bin\Debug\OOP.pdb
+C:\Users\HP\Desktop\csharp\Csharp\OOP\obj\Debug\OOP.exe
+C:\Users\HP\Desktop\csharp\Csharp\OOP\obj\Debug\OOP.pdb
+C:\Users\HP\Desktop\csharp\Csharp\OOP\obj\Debug\OOP.exe.config
