@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Csharp Language Basics")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8383cdf9b4791530a4536b3b851c4b295ab12e66")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db326bdc04bc33e4f4e8b91cbd3731ae001aa217")]
 [assembly: System.Reflection.AssemblyProductAttribute("Csharp Language Basics")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Csharp Language Basics")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

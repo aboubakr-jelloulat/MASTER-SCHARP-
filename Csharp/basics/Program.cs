@@ -322,6 +322,8 @@ namespace Csharp
             /* Example    */
 
 
+            /*
+
             Console.Write("Enter a number :  ");
 
             bool isSuccessful = int.TryParse(Console.ReadLine(), out int num);  
@@ -332,9 +334,94 @@ namespace Csharp
             Console.WriteLine($"num = {num}");
 
 
+            */
+
+
+
+
+
+
+
+
+            /* **************  Exceptions **************   */
+
+
+            /* 
+
+            try
+            {
+                Console.WriteLine(Divide(10, 2));
+                Console.WriteLine(Divide(5, 0));
+
+            }
+
+            catch (Exception ex)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+
+                Console.WriteLine(ex.Message); // Attempted to divide by zero.
+
+                Console.WriteLine(ex.ToString()); // stack trace   good practice
+
+                Console.ForegroundColor = ConsoleColor.White;
+
+            }
+
+            finally
+            {
+                Console.ForegroundColor = ConsoleColor.Cyan;
+
+                Console.WriteLine("\nFinally I'm Done ");
+
+                Console.ForegroundColor = ConsoleColor.White;
+
+            }
+
+
+
+            */
+
+
+
+
+            try
+            {
+                Console.WriteLine("Please Enter a 5 characters string : ");
+                var input = Console.ReadLine();
+
+                if (input.Length != 5)
+                    throw new Exception("String must be 5 characteres long");
+
+            }
+            catch (Exception ex)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+
+
+                Console.WriteLine(ex.ToString()); // stack trace   good practice
+
+                Console.ForegroundColor = ConsoleColor.White;
+            }
+            
+
+
+
+
             Console.ReadKey();
 
         }
+
+
+
+        //  Exceptions
+
+
+
+        static int Divide(int nb, int div)
+        {
+            return nb / div;
+        }
+
 
 
 
