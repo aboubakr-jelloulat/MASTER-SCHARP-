@@ -78,7 +78,7 @@ namespace Csharp
 
 
             /*
-      
+
             Console.WriteLine("Choose an option:");
             Console.WriteLine("1 - Say Hello");
             Console.WriteLine("2 - Show Date");
@@ -107,10 +107,10 @@ namespace Csharp
                 default:
                     Console.WriteLine("Invalid choice. Please select 1, 2, or 3.");
                     break;
-             
+
             }
 
-            
+
 
 
 
@@ -119,7 +119,7 @@ namespace Csharp
 
 
             /*
-             
+
 
             Console.WriteLine("Enter the size of elements: ");
             int n = int.Parse(Console.ReadLine());
@@ -146,7 +146,7 @@ namespace Csharp
 
 
             /*
-             
+
             Console.WriteLine("\n *********  Numbers  *************\n\n");
 
             int num_1 = 42;
@@ -219,7 +219,7 @@ namespace Csharp
             string hello = string.Join(" ", words);
 
             Console.WriteLine(hello); 
-            
+
 
 
             */
@@ -228,6 +228,9 @@ namespace Csharp
 
 
             /*  **********  String Builder ********** */
+
+            /*  
+
 
 
             string str = "Hello";
@@ -255,27 +258,76 @@ namespace Csharp
 
 
 
+            */
+
+
+
+
+            /*  ********  Constants  & Read-Only Variables   */
+
+
+        /*
+
+         * const: A compile-time constant. Must be assigned at declaration and cannot change later.
+         * 
+         * readonly: A runtime constant. Can be assigned at declaration or in the constructor, but not changed after.
+         * 
+         * const is implicitly static and shared across all instances.
+         * 
+         * Use const for fixed values (Pi, days ...), and readonly for values set during object creation.
+         * 
+         * readonly supports reference types and values known only at runtime.
+         * 
+         * we can modify the readonly variables only in ***cunstractor ****
+
+          */
+
+
+        /*
+             
+            * Compile-time: When the code is being **translated** into machine code by the compiler.
+            * The compiler checks for syntax errors and sets fixed values like const.
+            *
+            * Run-time: When the program is actually **running** on your computer.
+            * The program creates objects, takes input, and can assign readonly values.
+            
+         */
 
 
 
 
 
 
-            Console.ReadKey();
 
-        }
 
-        static void Duplicate_number(int nb)
-        {
-            nb *= 2;
-        }
+           Console.ReadKey();
 
-        static void DuplicateArraysValue(int[] arr)
-        {
-            for (int i = 0; i < arr.Length; i++)
-                arr[i] *= 2;
+}
 
-        }
-    }
+
+// constant
+
+public const string MyConstVar = "hello";
+
+public const int Myschool = 1337;
+
+
+// ReadOnly Variables 
+
+private readonly string _message = "Hello world";
+
+
+static void Duplicate_number(int nb)
+{
+nb *= 2;
+}
+
+static void DuplicateArraysValue(int[] arr)
+{
+for (int i = 0; i < arr.Length; i++)
+    arr[i] *= 2;
+
+}
+}
 }
 
