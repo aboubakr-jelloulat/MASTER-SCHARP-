@@ -266,68 +266,163 @@ namespace Csharp
             /*  ********  Constants  & Read-Only Variables   */
 
 
-        /*
+            /*
 
-         * const: A compile-time constant. Must be assigned at declaration and cannot change later.
-         * 
-         * readonly: A runtime constant. Can be assigned at declaration or in the constructor, but not changed after.
-         * 
-         * const is implicitly static and shared across all instances.
-         * 
-         * Use const for fixed values (Pi, days ...), and readonly for values set during object creation.
-         * 
-         * readonly supports reference types and values known only at runtime.
-         * 
-         * we can modify the readonly variables only in ***cunstractor ****
+             * const: A compile-time constant. Must be assigned at declaration and cannot change later.
+             * 
+             * readonly: A runtime constant. Can be assigned at declaration or in the constructor, but not changed after.
+             * 
+             * const is implicitly static and shared across all instances.
+             * 
+             * Use const for fixed values (Pi, days ...), and readonly for values set during object creation.
+             * 
+             * readonly supports reference types and values known only at runtime.
+             * 
+             * we can modify the readonly variables only in ***cunstractor ****
 
-          */
-
-
-        /*
-             
-            * Compile-time: When the code is being **translated** into machine code by the compiler.
-            * The compiler checks for syntax errors and sets fixed values like const.
-            *
-            * Run-time: When the program is actually **running** on your computer.
-            * The program creates objects, takes input, and can assign readonly values.
-            
-         */
+              */
 
 
+            /*
+
+                * Compile-time: When the code is being **translated** into machine code by the compiler.
+                * The compiler checks for syntax errors and sets fixed values like const.
+                *
+                * Run-time: When the program is actually **running** on your computer.
+                * The program creates objects, takes input, and can assign readonly values.
+
+             */
 
 
 
 
 
-
-           Console.ReadKey();
-
-}
+            /*  **************  ref    &  out  Keywords   **************  */
 
 
-// constant
+            /*
+                * ref: Passes a variable by reference. The variable must be initialized before passing.
+                * out: Also passes by reference, but the variable does NOT need to be initialized before.
+                *
+                * Both allow a method to modify the original variable outside the method.
+                *
+                * Key difference:
+                * - ref: The caller MUST initialize the variable before passing.
+                * - out: The method MUST assign a value before returning.
+             */
 
-public const string MyConstVar = "hello";
-
-public const int Myschool = 1337;
 
 
-// ReadOnly Variables 
 
-private readonly string _message = "Hello world";
+            // TestRef();
+
+            // TestOut();
 
 
-static void Duplicate_number(int nb)
-{
-nb *= 2;
-}
+            /* Example    */
 
-static void DuplicateArraysValue(int[] arr)
-{
-for (int i = 0; i < arr.Length; i++)
-    arr[i] *= 2;
 
-}
-}
+            Console.Write("Enter a number :  ");
+
+            bool isSuccessful = int.TryParse(Console.ReadLine(), out int num);  
+
+
+            Console.WriteLine($"is Successful : {isSuccessful}");
+
+            Console.WriteLine($"num = {num}");
+
+
+            Console.ReadKey();
+
+        }
+
+
+
+        //  ref    &  out  Keywords
+
+
+
+        static void TestRef()
+        {
+            Console.ForegroundColor = ConsoleColor.Yellow;
+
+            bool isSuccessful = true;
+
+            var result = Divideref(10, 0, ref isSuccessful);
+
+            Console.WriteLine($"is Successful : {isSuccessful}");
+            Console.WriteLine($"result  : {result}");
+
+        }
+
+        static double Divideref (double number, double divisor, ref bool isSuccessful)
+        {
+            if (divisor == 0)
+            {
+                Console.WriteLine("Can't divide on Zero !");
+                isSuccessful = false;
+                return 0;
+            }
+
+            isSuccessful = true;
+            return number / divisor;
+        }
+
+
+
+        static void TestOut()
+        {
+            Console.ForegroundColor = ConsoleColor.Cyan;
+
+            bool isSuccessful = true;
+
+            var result = DivideOut(10, 0, out isSuccessful);
+
+            Console.WriteLine($"is Successful : {isSuccessful}");
+            Console.WriteLine($"result  : {result}");
+
+        }
+
+        static double DivideOut(double number, double divisor, out bool isSuccessful)
+        {
+            if (divisor == 0)
+            {
+                Console.WriteLine("Can't divide on Zero !");
+                isSuccessful = false;
+                return 0;
+            }
+
+            isSuccessful = true;
+            return number / divisor;
+        }
+
+
+
+
+
+        // constant
+
+        public const string MyConstVar = "hello";
+
+        public const int Myschool = 1337;
+
+
+        // ReadOnly Variables 
+
+        private readonly string _message = "Hello world";
+
+
+        static void Duplicate_number(int nb)
+        {
+            nb *= 2;
+        }
+
+        static void DuplicateArraysValue(int[] arr)
+        {
+            for (int i = 0; i < arr.Length; i++)
+                arr[i] *= 2;
+
+        }
+    }
 }
 
