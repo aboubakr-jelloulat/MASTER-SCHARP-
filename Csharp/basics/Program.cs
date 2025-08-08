@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime;
 using System.Text;
 
 
@@ -456,9 +457,85 @@ namespace Csharp
             */
 
 
+            /* **************** File System Command Line    **************** */
 
 
+            while (true)
+            {
+                Console.WriteLine(">>  ");
+                var input = Console.ReadLine().Trim();
 
+                var whiteSpace = input.IndexOf(' ');
+
+                var command = input.Substring(0, whiteSpace);
+
+                var path = input.Substring(whiteSpace + 1).Trim();
+
+                //Console.WriteLine($"Command = {command}\nPath = {path}");
+
+                if (command == "list")
+                {
+                    foreach (var entry in Directory.GetDirectories(path))
+                        Console.WriteLine("\t[Dir ] : {0}", entry);
+
+                    foreach (var entry in Directory.GetFiles(path))
+                        Console.WriteLine("\t[Files ] : {0}", entry);
+
+                }
+                else if (command == "info")
+                {
+                    if (Directory.Exists(path))
+                    {
+                        var dirinfo = new DirectoryInfo(path);
+
+                        Console.WriteLine("Type : Directory");
+                        Console.WriteLine($"Created At : {dirinfo.CreationTime}");
+                        Console.WriteLine($"Last Modified At : {dirinfo.LastWriteTime}");
+                    }
+                    else if (File.Exists(path))
+                    {
+                        var fileInfo = new FileInfo(path);
+
+                        Console.WriteLine("Type : File");
+                        Console.WriteLine($"Created At : {fileInfo.CreationTime}");
+                        Console.WriteLine($"Last Modified At : {fileInfo.LastWriteTime}");
+                        Console.WriteLine($"Size : {fileInfo.Length}");
+
+                    }
+
+                    else
+                        Console.WriteLine("no such file or directory :  {0}", path);
+                }
+                else if (command == "mkdir")
+                {
+                    Directory.CreateDirectory(path);
+                }
+                else if (command == "rm")
+                {
+                    if (Directory.Exists(path))
+                        Directory.Delete(path, true); // true delete the folder contents
+
+                    else if (File.Exists(path))
+                        File.Delete(path);
+
+                }
+                if (command == "print")
+                {
+                    if (File.Exists(path))
+                    {
+                        var content = File.ReadAllText(path);
+
+                        Console.WriteLine(content);
+                        // appand write .... 
+                    }
+                }
+                else if (command == "exit")
+                {
+                    break;
+                }
+
+
+            }
 
 
 
