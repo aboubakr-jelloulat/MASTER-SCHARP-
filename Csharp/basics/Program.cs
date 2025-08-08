@@ -382,7 +382,7 @@ namespace Csharp
             */
 
 
-
+            /* 
 
             try
             {
@@ -403,12 +403,81 @@ namespace Csharp
                 Console.ForegroundColor = ConsoleColor.White;
             }
             
+            */
+
+
+
+
+            /*  *********   Enums  ********* */
+
+
+            /*  
+             
+            Console.WriteLine("Print enums Values : \n");
+
+            foreach (var color in Enum.GetNames(typeof(Color)))
+            {
+                Console.WriteLine($"{color} = {(int)Enum.Parse(typeof(Color), color)}");
+            }
+
+            Console.WriteLine("\n\nPractice Allow user to change console backround & foreground colors : \n");
+
+            while (true)
+            {
+                Console.WriteLine("Please Enter an Option : ");
+                Console.WriteLine("[1] Change Background Color\n[2] Change Fpreground Color");
+
+                string userOption = Console.ReadLine();
+
+                foreach (var color in Enum.GetNames(typeof(ConsoleColor)))
+                {
+                    Console.WriteLine($"{color}");
+                }
+
+                Console.WriteLine("Please Enter Color Name : ");
+
+                string ColorName = Console.ReadLine();
+
+                ConsoleColor SelectedColor = (ConsoleColor)Enum.Parse(typeof(ConsoleColor), ColorName, true); // true : ignore case 
+
+                if (userOption == "1")
+                    Console.BackgroundColor = SelectedColor;
+
+                else if (userOption == "2")
+                    Console.ForegroundColor = SelectedColor;
+
+                else
+                    Console.WriteLine("Invalid Option ");
+
+            }
+
+
+
+            */
+
+
+
+
+
+
+
 
 
 
 
             Console.ReadKey();
 
+        }
+
+
+        // Enums
+
+
+        public enum Color
+        {
+            Red,
+            Green,
+            Yellow
         }
 
 
