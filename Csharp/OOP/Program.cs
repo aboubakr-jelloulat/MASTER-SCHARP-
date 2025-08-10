@@ -1,5 +1,6 @@
-﻿using OOP.Static_Members;
-using  OOP.Variable_Scopes;
+﻿using   OOP.Static_Members;
+using   OOP.Variable_Scopes;
+using   OOP.PrivateConstractor_StaticClass;
 using System;
 
 namespace OOP
@@ -21,7 +22,9 @@ namespace OOP
 
             /* ***** [ Variables Scopes ] **********   */
 
-        
+            /* 
+
+
                 //  **Accessing static variables** in C#
 
                 // In C#, static members are accessed using the class name
@@ -55,6 +58,22 @@ namespace OOP
 
             //Console.WriteLine("Accessing static variable via object: " + dif.x);
             //Console.WriteLine("Accessing static method via object: " + dif.Foo());
+
+
+
+
+             */
+
+
+            /* ***** [  Private Constractor vs Static Class ] **********   */
+
+
+
+
+             StaticClass.foo();
+            Console.WriteLine(PrivateConstractor.Day); 
+
+
 
 
 
