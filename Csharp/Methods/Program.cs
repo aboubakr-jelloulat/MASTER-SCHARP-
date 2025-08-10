@@ -45,9 +45,9 @@ namespace Methods
                 return x * y; → result is returned
 
 
-                 
-             
-             
+
+
+
              */
 
 
@@ -63,3 +63,4 @@ namespace Methods
         }
     }
 }
+

@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36301.6 d17.14
+VisualStudioVersion = 17.14.36301.6
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "basics", "basics\basics.csproj", "{1BEC9CAB-C849-43D7-8D92-4D4753CF61D8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Csharp Language Basics", "basics\Csharp Language Basics.csproj", "{1BEC9CAB-C849-43D7-8D92-4D4753CF61D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methods", "Methods\Methods.csproj", "{3A2EABA9-80C1-4DA1-A1BF-459E171F8973}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP", "OOP\OOP.csproj", "{E26185AA-AEF1-45D1-A7F3-A62E71C92166}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{1BEC9CAB-C849-43D7-8D92-4D4753CF61D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BEC9CAB-C849-43D7-8D92-4D4753CF61D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BEC9CAB-C849-43D7-8D92-4D4753CF61D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A2EABA9-80C1-4DA1-A1BF-459E171F8973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A2EABA9-80C1-4DA1-A1BF-459E171F8973}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A2EABA9-80C1-4DA1-A1BF-459E171F8973}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A2EABA9-80C1-4DA1-A1BF-459E171F8973}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E26185AA-AEF1-45D1-A7F3-A62E71C92166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E26185AA-AEF1-45D1-A7F3-A62E71C92166}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E26185AA-AEF1-45D1-A7F3-A62E71C92166}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E26185AA-AEF1-45D1-A7F3-A62E71C92166}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
