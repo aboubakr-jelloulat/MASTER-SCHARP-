@@ -2,6 +2,7 @@
 using   OOP.Variable_Scopes;
 using   OOP.PrivateConstractor_StaticClass;
 using   OOP.Inheritance._00_Declaration;
+using   OOP.Inheritance._01_Override;
 using System;
 
 namespace OOP
@@ -90,18 +91,24 @@ namespace OOP
 
             /* ***** [ Inheritance  ] **********   */
 
-
+            /*
+             
             Student st = new Student(10, "Aboubakr", 1000, 20, "IT");
 
             st.DisplayInfo();
 
             st.ShowStudentInfo();
 
+            */
 
 
 
+            /* ***** [ Inheritance  ] **********   */
 
 
+            clsB B = new clsB();
+
+            B.Display();
 
 
         }
