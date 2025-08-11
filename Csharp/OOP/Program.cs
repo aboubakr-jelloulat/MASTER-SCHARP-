@@ -3,6 +3,7 @@ using   OOP.Variable_Scopes;
 using   OOP.PrivateConstractor_StaticClass;
 using   OOP.Inheritance._00_Declaration;
 using   OOP.Inheritance._01_Override;
+using   OOP.Inheritance.Method_Hiding___Shodowing;
 using System;
 
 namespace OOP
@@ -91,6 +92,10 @@ namespace OOP
 
             /* ***** [ Inheritance  ] **********   */
 
+
+
+
+
             /*
              
             Student st = new Student(10, "Aboubakr", 1000, 20, "IT");
@@ -103,12 +108,47 @@ namespace OOP
 
 
 
-            /* ***** [ Inheritance  ] **********   */
+            /* ***** [ Overriding in c# + Base Keyword  ] **********   */
 
+
+
+            /*
 
             clsB B = new clsB();
 
             B.Display();
+
+
+            */
+
+
+
+            /* ***** [Method Hidding  / Shodowing  ] **********   */
+
+
+
+
+            MyBaseClass myBaseObj = new MyBaseClass();
+            Console.WriteLine("\nBase Object:\n");
+            myBaseObj.MyMethod(); // Output: "Base class implementation"
+            myBaseObj.MyOtherMethod(); // Output: "Base class implementation of MyOtherMethod"
+
+
+            MyDerivedClass myDerivedObj = new MyDerivedClass();
+            Console.WriteLine("\nDerived Object:\n");
+            myDerivedObj.MyMethod(); // Output: "Derived class implementation using override"
+            myDerivedObj.MyOtherMethod(); // Output: "Derived class implementation of MyOtherMethod using new"
+
+
+            MyBaseClass myDerivedObjAsBase = myDerivedObj;
+            Console.WriteLine("\nAfter Casting:\n");
+            myDerivedObjAsBase.MyMethod(); // Output: "Derived class implementation using override"
+            myDerivedObjAsBase.MyOtherMethod(); // Output: "Base class implementation of MyOtherMethod"
+
+
+
+
+
 
 
         }
