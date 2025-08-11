@@ -1,6 +1,7 @@
 ﻿using   OOP.Static_Members;
 using   OOP.Variable_Scopes;
 using   OOP.PrivateConstractor_StaticClass;
+using   OOP.Inheritance._00_Declaration;
 using System;
 
 namespace OOP
@@ -70,8 +71,33 @@ namespace OOP
 
 
 
-             StaticClass.foo();
-            Console.WriteLine(PrivateConstractor.Day); 
+            //StaticClass.foo();
+            //Console.WriteLine(PrivateConstractor.Day);
+
+
+            // ***** We cann't create objects of the class in other class if we have a  1)- private constractor   or  2)-  static class
+
+
+            //StaticClass cls = new();
+
+            //PrivateConstractor prv = new();
+
+
+
+
+
+
+
+            /* ***** [ Inheritance  ] **********   */
+
+
+            Student st = new Student(10, "Aboubakr", 1000, 20, "IT");
+
+            st.DisplayInfo();
+
+            st.ShowStudentInfo();
+
+
 
 
 
@@ -80,4 +106,6 @@ namespace OOP
 
         }
     }
+
+        
 }
