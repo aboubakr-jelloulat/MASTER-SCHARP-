@@ -4,6 +4,7 @@ using   OOP.PrivateConstractor_StaticClass;
 using   OOP.Inheritance._00_Declaration;
 using   OOP.Inheritance._01_Override;
 using   OOP.Inheritance.Method_Hiding___Shodowing;
+using   OOP.Inheritance._02_AbstractClass;
 using System;
 
 namespace OOP
@@ -126,7 +127,7 @@ namespace OOP
             /* ***** [Method Hidding  / Shodowing  ] **********   */
 
 
-
+            /* 
 
             MyBaseClass myBaseObj = new MyBaseClass();
             Console.WriteLine("\nBase Object:\n");
@@ -144,6 +145,30 @@ namespace OOP
             Console.WriteLine("\nAfter Casting:\n");
             myDerivedObjAsBase.MyMethod(); // Output: "Derived class implementation using override"
             myDerivedObjAsBase.MyOtherMethod(); // Output: "Base class implementation of MyOtherMethod"
+
+
+            */
+
+
+
+
+
+
+
+
+
+            /* ***** [Method Hidding  / Shodowing  ] **********   */
+
+
+
+
+
+
+            AbsStudent S1 = new AbsStudent("Aboubakr", "Jelloulat", "IT");
+
+            S1.WhoAmi();
+
+
 
 
 

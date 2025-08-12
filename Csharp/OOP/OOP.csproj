@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Inheritance\00_Declaration\Declare.cs" />
     <Compile Include="Inheritance\01_Override\override.cs" />
+    <Compile Include="Inheritance\02_AbstractClass\Abstract.cs" />
     <Compile Include="Inheritance\Method Hiding - Shodowing\Shodowing.cs" />
     <Compile Include="PrivateConstractor-StaticClass\Private_Static.cs" />
     <Compile Include="Program.cs" />
