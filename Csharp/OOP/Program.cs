@@ -5,6 +5,7 @@ using   OOP.Inheritance._00_Declaration;
 using   OOP.Inheritance._01_Override;
 using   OOP.Inheritance.Method_Hiding___Shodowing;
 using   OOP.Inheritance._02_AbstractClass;
+using   OOP.Inheritance._03_Interface;
 using System;
 
 namespace OOP
@@ -20,6 +21,14 @@ namespace OOP
             //VariableScopes.VariablesScopes();
 
             //VariableScopes.BlockScope();
+
+
+
+
+
+
+
+
 
 
 
@@ -69,7 +78,19 @@ namespace OOP
              */
 
 
+
+
+
+
+
+
+
             /* ***** [  Private Constractor vs Static Class ] **********   */
+
+
+
+
+
 
 
 
@@ -109,6 +130,11 @@ namespace OOP
 
 
 
+
+
+
+
+
             /* ***** [ Overriding in c# + Base Keyword  ] **********   */
 
 
@@ -121,6 +147,8 @@ namespace OOP
 
 
             */
+
+
 
 
 
@@ -163,6 +191,8 @@ namespace OOP
 
 
 
+            /* 
+
 
             AbsStudent S1 = new AbsStudent("Aboubakr", "Jelloulat", "IT");
 
@@ -170,8 +200,31 @@ namespace OOP
 
 
 
+            */
 
 
+
+
+
+            /* ***** [ Interface ] **********   */
+
+
+            //Movie movie = new Movie("Inception");
+            //movie.Play();
+            //movie.Stop();
+
+            //Music music = new Music("Shape of You");
+            //music.Play();
+            //music.Pause();
+
+            // ------  Multiple Interfaces -----
+
+
+            EBook book = new EBook("Clean Code");
+
+            book.Read();
+            book.Read();
+            book.Download();
 
 
 
