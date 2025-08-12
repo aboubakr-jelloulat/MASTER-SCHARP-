@@ -7,6 +7,7 @@ using   OOP.Inheritance.Method_Hiding___Shodowing;
 using   OOP.Inheritance._02_AbstractClass;
 using   OOP.Inheritance._03_Interface;
 using System;
+using OOP.Inheritance._04_NestedClass;
 
 namespace OOP
 {
@@ -220,12 +221,27 @@ namespace OOP
             // ------  Multiple Interfaces -----
 
 
-            EBook book = new EBook("Clean Code");
+            //EBook book = new EBook("Clean Code");
 
-            book.Read();
-            book.Read();
-            book.Download();
+            //book.Read();
+            //book.Read();
+            //book.Download();
 
+
+
+
+
+
+            /* ***** [ Nested Class ] **********   */
+
+
+            Outher.Inner inner = new Outher.Inner();
+
+            inner.hej();
+
+            Outher outher = new Outher("CN61606");
+
+            inner.AccesCIN(outher);
 
 
 
