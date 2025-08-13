@@ -49,6 +49,8 @@
     <Compile Include="Inheritance\03_Interface\Interface.cs" />
     <Compile Include="Inheritance\04_NestedClass\Nested.cs" />
     <Compile Include="Inheritance\05_Sealed Classes &amp; Sealed Method\Sealed.cs" />
+    <Compile Include="Inheritance\06_Partial Class and Partial Method\file1.cs" />
+    <Compile Include="Inheritance\06_Partial Class and Partial Method\file2.cs" />
     <Compile Include="Inheritance\Method Hiding - Shodowing\Shodowing.cs" />
     <Compile Include="PrivateConstractor-StaticClass\Private_Static.cs" />
     <Compile Include="Program.cs" />

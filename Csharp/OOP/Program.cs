@@ -8,6 +8,7 @@ using   OOP.Inheritance._02_AbstractClass;
 using   OOP.Inheritance._03_Interface;
 using   OOP.Inheritance._04_NestedClass;
 using   OOP.Inheritance._05_Sealed_Classes___Sealed_Method;
+using   OOP.Inheritance._06_Partial_Class_and_Partial_Method;
 
 using System;
 
@@ -262,6 +263,8 @@ namespace OOP
             /* ***** [ Sealed Methode & Sealed Class ] **********   */
 
 
+            /*
+
 
             Transport trns = new Transport();
             trns.Drive();
@@ -271,6 +274,34 @@ namespace OOP
 
             Tesla tesla = new Tesla();
             tesla.Drive(); // cannot override sealed member 'Car.Drive()'
+
+
+
+
+            */
+
+
+
+
+            /* ***** [ Partial Methode & Partial Class ] **********   */
+
+
+            clsPartial Class = new clsPartial();
+
+            Class.Method1();
+
+            Class.Method2();
+
+
+
+            System.Console.WriteLine("\n  **** Partial Method : \n");
+
+
+
+            Class.Age = 20;
+
+            Class.PartialMethod1();
+
 
 
 
