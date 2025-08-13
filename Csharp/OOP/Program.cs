@@ -6,8 +6,10 @@ using   OOP.Inheritance._01_Override;
 using   OOP.Inheritance.Method_Hiding___Shodowing;
 using   OOP.Inheritance._02_AbstractClass;
 using   OOP.Inheritance._03_Interface;
+using   OOP.Inheritance._04_NestedClass;
+using   OOP.Inheritance._05_Sealed_Classes___Sealed_Method;
+
 using System;
-using OOP.Inheritance._04_NestedClass;
 
 namespace OOP
 {
@@ -235,6 +237,8 @@ namespace OOP
             /* ***** [ Nested Class ] **********   */
 
 
+            /*
+
             Outher.Inner inner = new Outher.Inner();
 
             inner.hej();
@@ -242,6 +246,32 @@ namespace OOP
             Outher outher = new Outher("CN61606");
 
             inner.AccesCIN(outher);
+
+
+
+            */
+
+
+
+
+
+
+
+
+
+            /* ***** [ Sealed Methode & Sealed Class ] **********   */
+
+
+
+            Transport trns = new Transport();
+            trns.Drive();
+
+            Car car = new Car();
+            car.Drive();
+
+            Tesla tesla = new Tesla();
+            tesla.Drive(); // cannot override sealed member 'Car.Drive()'
+
 
 
 
