@@ -52,6 +52,7 @@
     <Compile Include="Inheritance\06_Partial Class and Partial Method\file1.cs" />
     <Compile Include="Inheritance\06_Partial Class and Partial Method\file2.cs" />
     <Compile Include="Inheritance\Method Hiding - Shodowing\Shodowing.cs" />
+    <Compile Include="Polymosrphisme\Poly.cs" />
     <Compile Include="PrivateConstractor-StaticClass\Private_Static.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
