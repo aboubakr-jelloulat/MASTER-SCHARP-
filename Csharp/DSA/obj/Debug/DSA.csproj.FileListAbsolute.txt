@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\csharp\Csharp\DSA\bin\Debug\DSA.exe.config
+C:\Users\HP\Desktop\csharp\Csharp\DSA\bin\Debug\DSA.exe
+C:\Users\HP\Desktop\csharp\Csharp\DSA\bin\Debug\DSA.pdb
+C:\Users\HP\Desktop\csharp\Csharp\DSA\obj\Debug\DSA.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\csharp\Csharp\DSA\obj\Debug\DSA.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\csharp\Csharp\DSA\obj\Debug\DSA.exe
+C:\Users\HP\Desktop\csharp\Csharp\DSA\obj\Debug\DSA.pdb
+C:\Users\HP\Desktop\csharp\Csharp\DSA\obj\Debug\DSA.exe.config
