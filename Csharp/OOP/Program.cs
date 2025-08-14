@@ -286,6 +286,8 @@ namespace OOP
             /* ***** [ Partial Methode & Partial Class ] **********   */
 
 
+            /*
+
             clsPartial Class = new clsPartial();
 
             Class.Method1();
@@ -302,6 +304,9 @@ namespace OOP
 
             Class.PartialMethod1();
 
+
+
+            */
 
 
 
