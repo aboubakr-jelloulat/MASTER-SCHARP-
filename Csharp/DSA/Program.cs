@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using DSA._00_Intro;
 using DSA._00_Intro.Generic_List___Dictionary;
+using DSA._00_Intro.Stack_Queue;
+
 
 namespace DSA
 {
@@ -27,12 +29,27 @@ namespace DSA
             // ******** Generic List & Dictionary  *********
 
 
-            clsGenericList Glist = new clsGenericList();
+            //clsGenericList Glist = new clsGenericList();
 
             //Glist.GenericListOperations();
 
-            Glist.DictionaryOperations();
+            //Glist.DictionaryOperations();
 
+
+
+
+            // ********    Stack     *********
+
+            // clsStack stack = new clsStack();
+
+            // stack.ImplementUndoRedo();
+
+
+            // ********    Queue     *********
+
+            clsQueue queue = new clsQueue();
+
+            queue.ImplementPrinter();
 
 
 

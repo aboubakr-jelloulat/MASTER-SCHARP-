@@ -45,6 +45,8 @@
   <ItemGroup>
     <Compile Include="00_Intro\ArrayList.cs" />
     <Compile Include="00_Intro\Generic List &amp; Dictionary\Generic_List_Dictionary.cs" />
+    <Compile Include="00_Intro\Stack&amp;Queue\Queue.cs" />
+    <Compile Include="00_Intro\Stack&amp;Queue\Stack.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
