@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\csharp\Csharp\Advanced Csharp\obj\Debug\Advanced Csharp.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\csharp\Csharp\Advanced Csharp\obj\Debug\Advanced Csharp.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\csharp\Csharp\Advanced Csharp\bin\Debug\Advanced Csharp.exe.config
+C:\Users\HP\Desktop\csharp\Csharp\Advanced Csharp\bin\Debug\Advanced Csharp.exe
+C:\Users\HP\Desktop\csharp\Csharp\Advanced Csharp\bin\Debug\Advanced Csharp.pdb
+C:\Users\HP\Desktop\csharp\Csharp\Advanced Csharp\obj\Debug\Advanced Csharp.exe
+C:\Users\HP\Desktop\csharp\Csharp\Advanced Csharp\obj\Debug\Advanced Csharp.pdb
+C:\Users\HP\Desktop\csharp\Csharp\Advanced Csharp\obj\Debug\Advanced Csharp.exe.config

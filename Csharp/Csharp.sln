@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP", "OOP\OOP.csproj", "{E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA", "DSA\DSA.csproj", "{9094D959-973A-4677-8058-BCB6DEADBE62}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advanced Csharp", "Advanced Csharp\Advanced Csharp.csproj", "{81ADF15C-C88D-4C25-A52C-F46F43835F72}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{9094D959-973A-4677-8058-BCB6DEADBE62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9094D959-973A-4677-8058-BCB6DEADBE62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9094D959-973A-4677-8058-BCB6DEADBE62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81ADF15C-C88D-4C25-A52C-F46F43835F72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81ADF15C-C88D-4C25-A52C-F46F43835F72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81ADF15C-C88D-4C25-A52C-F46F43835F72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81ADF15C-C88D-4C25-A52C-F46F43835F72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
