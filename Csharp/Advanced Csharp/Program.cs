@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Advanced_Csharp._01__Extension_Methods;
+using Advanced_Csharp._02_Recursion;
 
 namespace Advanced_Csharp
 {
@@ -27,12 +28,14 @@ namespace Advanced_Csharp
 
 
 
-            // *************** [  ] *********************
+            // *************** [ Recursion ] *********************
 
 
+            //Console.WriteLine(clsRecursion.CalculateFactorial(5));
 
+            //clsRecursion.PrintDirectoryFileSystemEntries(@"C:\Users\HP\Desktop\42 cursus\Exam_Rank_04", 1);
 
-
+            Console.WriteLine("Size of this dir : {0}  KB", clsRecursion.ClaculateDirectorySize(@"C:\Users\HP\Desktop\42 cursus\Exam_Rank_04") / 1024);
 
 
 
