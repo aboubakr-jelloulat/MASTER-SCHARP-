@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="01_ Extension Methods\Extension Methods.cs" />
     <Compile Include="02_Recursion\Recursion.cs" />
+    <Compile Include="03_Delegates\Delegates.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
