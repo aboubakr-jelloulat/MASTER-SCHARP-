@@ -4,6 +4,51 @@ using System.Collections.Generic;
 namespace Advanced_Csharp._03_Delegates
 {
 
+
+    public class clsIntroToDdelegate
+    {
+
+        delegate void GreetDelegate(string name);
+
+
+        static void SayHello(string name)
+        {
+            Console.WriteLine("Hello " + name);
+        }
+
+
+        static void SayHej(string name)
+        {
+            Console.WriteLine("Hej " + name);
+        }
+
+
+        static void SayBonjour(string name)
+        {
+            Console.WriteLine($"Bonjour {name}");
+        }
+
+        public static void IntroToDdelegate()
+        {
+            GreetDelegate dlg = SayHello;
+
+            dlg("Aboubakr");
+
+            dlg = SayHej;
+
+            dlg("Finaceiz");
+
+            dlg = SayBonjour;
+
+            dlg("Froncoi");
+
+
+        }
+
+
+    }
+
+
     public class Employee
     {
 
@@ -49,6 +94,20 @@ namespace Advanced_Csharp._03_Delegates
 
     public class Delegates
     {
+
+        /* 
+            You want to call someone to do a job for you. But you don’t want to decide which person right now—you just want to say “Whoever I give this phone number to, they’ll do the job later.”
+              That phone number is like a delegate. It points to a method (a person).
+            
+         */
+
+
+       /* 
+          A delegate is like a pointer to a function.
+        */
+
+
+
         public delegate int CalculateDelegate(int nb1, int nb2);
 
         public void MulticastingDelegate()

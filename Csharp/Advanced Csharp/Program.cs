@@ -47,11 +47,13 @@ namespace Advanced_Csharp
 
             Delegates delg = new Delegates();
 
+            clsIntroToDdelegate.IntroToDdelegate();
+
             // delg.TestClaculate();
 
             //delg.MulticastingDelegate();
 
-            Employee.AnyThings();
+            //Employee.AnyThings();
 
 
 
