@@ -46,6 +46,9 @@
     <Compile Include="01_ Extension Methods\Extension Methods.cs" />
     <Compile Include="02_Recursion\Recursion.cs" />
     <Compile Include="03_Delegates\Delegates.cs" />
+    <Compile Include="04_Events\clsEmployee.cs" />
+    <Compile Include="04_Events\Events.cs" />
+    <Compile Include="04_Events\SalaryCalculator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

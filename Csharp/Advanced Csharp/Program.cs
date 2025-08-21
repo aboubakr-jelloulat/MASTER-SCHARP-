@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Advanced_Csharp._01__Extension_Methods;
 using Advanced_Csharp._02_Recursion;
 using Advanced_Csharp._03_Delegates;
+using Advanced_Csharp._04_Events;
 
 namespace Advanced_Csharp
 {
@@ -45,9 +46,9 @@ namespace Advanced_Csharp
             // *************** [ Delegates ] *********************
 
 
-            Delegates delg = new Delegates();
+            // Delegates delg = new Delegates();
 
-            clsIntroToDdelegate.IntroToDdelegate();
+            // clsIntroToDdelegate.IntroToDdelegate();
 
             // delg.TestClaculate();
 
@@ -56,6 +57,12 @@ namespace Advanced_Csharp
             //Employee.AnyThings();
 
 
+
+
+            // *************** [ Events ] *********************
+
+
+            clsEvents.TestEvents();
 
 
             Console.ReadKey();
