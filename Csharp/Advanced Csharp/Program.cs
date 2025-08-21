@@ -7,6 +7,7 @@ using Advanced_Csharp._01__Extension_Methods;
 using Advanced_Csharp._02_Recursion;
 using Advanced_Csharp._03_Delegates;
 using Advanced_Csharp._04_Events;
+using Advanced_Csharp._05_Multitthreading;
 
 namespace Advanced_Csharp
 {
@@ -62,10 +63,23 @@ namespace Advanced_Csharp
             // *************** [ Events ] *********************
 
 
-            clsEvents.TestEvents();
+            // clsEvents.TestEvents();
 
 
-            Console.ReadKey();
+            // Console.ReadKey();
+
+
+
+
+
+
+            // *************** [ Events ] *********************
+
+
+            clsMultithreading.TestMultithreading();
+
+
+
 
         }
     }
