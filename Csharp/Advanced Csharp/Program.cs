@@ -89,6 +89,7 @@ namespace Advanced_Csharp
 
 
 
+            TAP.TestTAP().GetAwaiter().GetResult(); // ✅ wait for async code to finish
 
 
 
