@@ -50,6 +50,7 @@
     <Compile Include="04_Events\Events.cs" />
     <Compile Include="04_Events\SalaryCalculator.cs" />
     <Compile Include="05_Multitthreading\Multithreading.cs" />
+    <Compile Include="06_TAP\TAP.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

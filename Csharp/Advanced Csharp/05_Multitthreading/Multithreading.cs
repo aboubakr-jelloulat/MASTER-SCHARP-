@@ -14,9 +14,14 @@ namespace Advanced_Csharp._05_Multitthreading
 
         private static  void    ProcessBatch1(object state)
         {
+            var CancellationToken = (CancellationToken)state;
+
             Thread.Sleep(1000); // 1 ms 
             for (int i =1; i <= 1000; i++)
             {
+                // cancel
+                if (CancellationToken.IsCancellationRequested)
+                    return;
                 lock (_lock)
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
@@ -28,9 +33,13 @@ namespace Advanced_Csharp._05_Multitthreading
 
         private static void ProcessBatch2(object state)
         {
+            var CancellationToken = (CancellationToken)state;
+
             Thread.Sleep(1000); // 1 ms 
             for (int i = 1001; i <= 2000; i++)
             {
+                if (CancellationToken.IsCancellationRequested)
+                    return;
                 lock (_lock) // like a mutex
                 {
                     Console.ForegroundColor = ConsoleColor.Green;
@@ -72,7 +81,7 @@ namespace Advanced_Csharp._05_Multitthreading
 
             Thread.Sleep(1100); // 1 ms sleep main thread
 
-            cancelThread.Cancel(); //  Cancel the process
+            cancelThread.Cancel(); //  Cancel the process he cancel the other 2 threads 
 
 
 

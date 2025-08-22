@@ -8,6 +8,7 @@ using Advanced_Csharp._02_Recursion;
 using Advanced_Csharp._03_Delegates;
 using Advanced_Csharp._04_Events;
 using Advanced_Csharp._05_Multitthreading;
+using Advanced_Csharp._06_TAP;
 
 namespace Advanced_Csharp
 {
@@ -76,7 +77,18 @@ namespace Advanced_Csharp
             // *************** [ Events ] *********************
 
 
-            clsMultithreading.TestMultithreading();
+            // clsMultithreading.TestMultithreading();
+
+
+
+
+
+
+
+            // *************** [ TAP ] *********************
+
+
+
 
 
 
