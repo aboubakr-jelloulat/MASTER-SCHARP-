@@ -9,6 +9,7 @@ using Advanced_Csharp._03_Delegates;
 using Advanced_Csharp._04_Events;
 using Advanced_Csharp._05_Multitthreading;
 using Advanced_Csharp._06_TAP;
+using Advanced_Csharp._07_Enumerables;
 
 namespace Advanced_Csharp
 {
@@ -89,7 +90,14 @@ namespace Advanced_Csharp
 
 
 
-            TAP.TestTAP().GetAwaiter().GetResult(); // ✅ wait for async code to finish
+            // TAP.TestTAP().GetAwaiter().GetResult(); // ✅ wait for async code to finish
+
+
+
+
+
+
+
 
 
 

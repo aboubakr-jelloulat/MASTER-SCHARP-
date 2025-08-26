@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Advanced_Csharp._07_Enumerables
 {
-    internal class PayItem
+    public  class PayItem
     {
+        public string Name { get; set; }
+        public int Value { get; set; }
+
     }
 }

@@ -51,6 +51,9 @@
     <Compile Include="04_Events\SalaryCalculator.cs" />
     <Compile Include="05_Multitthreading\Multithreading.cs" />
     <Compile Include="06_TAP\TAP.cs" />
+    <Compile Include="07_Enumerables\Employee.cs" />
+    <Compile Include="07_Enumerables\Enumerables.cs" />
+    <Compile Include="07_Enumerables\PayItem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
