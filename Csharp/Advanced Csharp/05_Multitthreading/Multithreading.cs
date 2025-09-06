@@ -52,7 +52,7 @@ namespace Advanced_Csharp._05_Multitthreading
 
         public static void TestMultithreading()
         {
-            // ***** using for loop  *****
+            // ***** using for loop  ***** 
 
             // ProcessBatch1();
             // ProcessBatch2();
